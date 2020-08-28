@@ -73,6 +73,10 @@ function isDifferent(array) {
 }
 
 document.body.addEventListener('keydown', function (event) {
+  if (document.activeElement.tagName === 'INPUT') {
+    // ignore if typing in chat
+    return
+  }
   if (event.keyCode == 32) {
     console.log('🤔')
     start()
