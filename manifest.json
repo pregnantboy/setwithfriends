@@ -1,8 +1,8 @@
 {
   "name": "Upset your friends  - Set with friends hack",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
-  "description": "Win games, lose friends. Spacebar to highlight; m to autoclick.",
+  "description": "Win games, lose friends. Set with friends set highlighter/autoclicker. Spacebar to highlight; m to autoclick.",
   "homepage_url": "https://setwithfriends.com",
   "icons": {
     "16": "icons/icon16.png",

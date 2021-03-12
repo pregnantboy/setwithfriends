@@ -1,6 +1,6 @@
 function start(click) {
   const tiles = document.body.querySelectorAll(
-    'div[style="width: 183px; height: 109px; margin: 7px; border-radius: 7px;"]'
+    '.MuiPaper-root.MuiPaper-rounded>div[style^="position: absolute"]>div'
   )
 
   const visibleTiles = []
@@ -15,6 +15,7 @@ function start(click) {
       parsed.push(p)
     }
   })
+  console.log(parsed)
   const indicesToMark = getSet(parsed)
   for (let i of indicesToMark) {
     visibleTiles[i].setAttribute('highlight', '')
